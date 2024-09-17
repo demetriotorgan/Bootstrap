@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <title>Imagens e Figuaras</title>
+</head>
+<body>
+    <!--Classe img-fluid-->
+    <div class="container">
+        <img src="rect.png" alt="" class="img-fluid">
+    </div>
+<hr>
+    <!--Classe img-thumbnail-->
+    <div class="container">
+        <img src="rect.png" alt="" class="img-thumbnail">
+    </div>
+<hr>
+
+    <!--Combinando as Classe img fluid e rounded-->
+    <div class="container">
+        <img src="rect.png" alt="" class="img-fluid rounded">
+    </div>
+<hr>
+    <!--Figura e texto-->
+    <div class="contaiener">
+        <img src="rect.png" alt="" class="img-thumbnail float-start me-3">
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam incidunt harum obcaecati excepturi exercitationem, voluptatibus consequatur culpa eos pariatur dolore vero amet modi commodi aut minima itaque aspernatur voluptate consequuntur quidem est provident eveniet odio! Cupiditate, similique iste qui dolore deleniti nihil illum voluptatem iure consectetur corporis consequatur eius distinctio.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur eaque dolore eligendi ullam architecto iste. Et, vel labore? Maxime, architecto? Tempora nam nesciunt, ex quaerat molestiae voluptates earum cum molestias aperiam sint ab beatae ipsa, harum corrupti saepe temporibus animi? Doloribus perspiciatis porro, possimus eaque voluptates architecto soluta dolor culpa!
+
+        </p>
+    </div>
+    
+    <hr>
+
+    <!--Figura e texto-->
+    <div class="contaiener">
+        <img src="rect.png" alt="" class="img-thumbnail float-end ms-3">
+        <p class="lead text-end">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam incidunt harum obcaecati excepturi exercitationem, voluptatibus consequatur culpa eos pariatur dolore vero amet modi commodi aut minima itaque aspernatur voluptate consequuntur quidem est provident eveniet odio! Cupiditate, similique iste qui dolore deleniti nihil illum voluptatem iure consectetur corporis consequatur eius distinctio.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur eaque dolore eligendi ullam architecto iste. Et, vel labore? Maxime, architecto? Tempora nam nesciunt, ex quaerat molestiae voluptates earum cum molestias aperiam sint ab beatae ipsa, harum corrupti saepe temporibus animi? Doloribus perspiciatis porro, possimus eaque voluptates architecto soluta dolor culpa!
+
+        </p>
+    </div>
+
+    <hr>
+    <!--Figura com legenda na parte de baixo-->
+    <div class="container text-center">
+        <figure class="figure">
+            <img src="rect.png" alt="" class="img-fluid rounded">
+            <figcaption class="text-center">Legenda da figura</figcaption>
+        </figure>   
+
+    </div>
+
+    <hr>
+    <!-- Figura com legenda na parte de cima-->
+    
+    <div class="container text-center">       
+        <figure class="figure">
+            <figcaption class="text-center">Legenda da figura</figcaption>
+            <img src="rect.png" alt="" class="img-fluid rounded">
+            
+        </figure>   
+    </div>
+
+    <hr>
+    <!-- Figura com legenda no inicio-->
+    
+    <div class="container text-center">       
+        <figure class="figure">
+            <figcaption class="text-start">Legenda da figura</figcaption>
+            <img src="rect.png" alt="" class="img-fluid rounded">
+            
+        </figure>   
+    </div>
+
+
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

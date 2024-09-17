@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <title>Aula 6 - Formatação de Colunas</title>
+    <style>
+        .row{
+            height: 300px;
+            background-color: aliceblue;            
+        }
+
+        .col-3{
+            background-color: antiquewhite;
+            padding: 20px;
+            border: solid 1px black;
+        }
+    </style>
+</head>
+<body>
+    <!--Alinhamento Vertical-->
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-3">Coluna 1</div>
+            <div class="col-3">Coluna 2</div>
+            <div class="col-3">Coluna 3</div>
+        </div>
+    </div>
+
+    <hr>
+
+    <!--Alterando as divs individuais-->
+    <div class="container">
+        <div class="row">
+            <div class="col-3 align-self-start">Coluna 1</div>
+            <div class="col-3 align-self-center">Coluna 2</div>
+            <div class="col-3 align-self-end">Coluna 3</div>
+        </div>
+    </div>
+
+    <hr>
+    <!--Alinhamento Vertical-->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-3">Coluna 1</div>
+            <div class="col-3">Coluna 2</div>
+            <div class="col-3">Coluna 3</div>
+        </div>
+    </div>
+
+    <hr>
+    <!--Quebra de Linha-->
+    <div class="container">
+        <div class="row justify-content-evenly">
+            <div class="col-3">Coluna 1</div>
+            <div class="w-100"></div>
+            <div class="col-3">Coluna 2</div>
+            <div class="col-3">Coluna 3</div>
+        </div>
+    </div>
+
+    <hr>
+    <!--Mudando a ordem das colunas-->
+    <div class="container">
+        <div class="row justify-content-evenly">
+            <div class="col-3 order-2">Coluna 1</div>            
+            <div class="col-3 order-0">Coluna 2</div>
+            <div class="col-3 order-1">Coluna 3</div>
+        </div>
+    </div>
+    
+    <hr>
+    <!--Espaçamento-->
+    <div class="container">
+        <div class="row">
+            <div class="col-3 offset-1">Coluna 1</div>            
+            <div class="col-3 offset-2">Coluna 2</div>
+            <div class="col-3">Coluna 3</div>
+        </div>
+    </div>
+    
+    <hr>
+    <!--Espaçamento-->
+    <div class="container">
+        <div class="row">
+            <div class="col-3">Coluna 1</div>            
+            <div class="col-3 ms-auto">Coluna 2</div>
+            <!-- <div class="col-3">Coluna 3</div> -->
+        </div>
+
+        <hr>
+        <!--Espaçamento-->
+    <div class="container">
+        <div class="row">
+            <div class="col-3 mx-auto">Coluna 1</div>            
+            <!-- <div class="col-3 ms-auto">Coluna 2</div> -->
+            <!-- <div class="col-3">Coluna 3</div> -->
+        </div>
+
+        <hr>
+        <!--Deslocamento de colunas-->
+    <div class="container">
+        
+            <div class="col-3">Coluna 1</div>            
+            <div class="col-3">Coluna 2</div>
+            <!-- <div class="col-3">Coluna 3</div> -->   
+
+    </div>
+
+    <hr>
+
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
